@@ -1,0 +1,34 @@
+<div class="row">
+
+
+    <div class="col-md-9">
+        <h1 class="display-4">Welcome the Smart with Covid19 platform <br>
+        - COEN6311 Project developed by Group9 
+        
+         <img src="../../content/images/concordia.png" ></h1>
+
+      
+
+        <div [ngSwitch]="isAuthenticated()">
+            <div class="alert alert-success" *ngSwitchCase="true">
+                <span id="home-logged-message" *ngIf="account">You are logged in as user "{{ account.login }}".</span>
+            </div>
+
+            <div class="alert alert-warning" *ngSwitchCase="false">
+                
+                <a class="alert-link" (click)="login()">sign in</a><span> to see the latest covid19 news updates</span>
+            </div>
+
+            <div class="alert alert-warning" *ngSwitchCase="false">
+               
+                <a class="alert-link" routerLink="account/register">Register</a>
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+</div>

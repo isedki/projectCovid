@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_1iFuwBysEeuxj7S1gn33fg">
+  <modelElement href="version-12.uml#_3rLiMBysEeuxj7S1gn33fg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Fd8HcBytEeuxj7S1gn33fg" targetItem="_FeCOEBytEeuxj7S1gn33fg" sourceItem="_FdbxIBytEeuxj7S1gn33fg"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_Fh7PkBytEeuxj7S1gn33fg" targetItem="_FiU4MBytEeuxj7S1gn33fg" sourceItem="_FgsggBytEeuxj7S1gn33fg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_FiOxkBytEeuxj7S1gn33fg" target="_FiU4MBytEeuxj7S1gn33fg">
+    <modelElement href="version-12.uml#_40svABysEeuxj7S1gn33fg"/>
+    <nameVisual xmi:id="_FiOxkRytEeuxj7S1gn33fg" text=""/>
+    <sourceRole xmi:id="_FiOxkhytEeuxj7S1gn33fg" aggregationKind="NONE" name="id" navigable="true">
+      <modelElement href="version-12.uml#_4zBUAhysEeuxj7S1gn33fg"/>
+      <visibility xmi:id="_FiOxkxytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FiOxlBytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_FiOxlRytEeuxj7S1gn33fg" aggregationKind="NONE" name="">
+      <modelElement href="version-12.uml#_40svARysEeuxj7S1gn33fg"/>
+      <visibility xmi:id="_FiOxlhytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FiOxlxytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_FiRN0BytEeuxj7S1gn33fg" target="_FiU4MBytEeuxj7S1gn33fg">
+    <modelElement href="version-12.uml#_40tWEBysEeuxj7S1gn33fg"/>
+    <nameVisual xmi:id="_FiRN0RytEeuxj7S1gn33fg" text=""/>
+    <sourceRole xmi:id="_FiRN0hytEeuxj7S1gn33fg" aggregationKind="NONE" name="title" navigable="true">
+      <modelElement href="version-12.uml#_4zB7EBysEeuxj7S1gn33fg"/>
+      <visibility xmi:id="_FiRN0xytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FiRN1BytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_FiRN1RytEeuxj7S1gn33fg" aggregationKind="NONE" name="">
+      <modelElement href="version-12.uml#_40tWERysEeuxj7S1gn33fg"/>
+      <visibility xmi:id="_FiRN1hytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FiRN1xytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_FiR04BytEeuxj7S1gn33fg" target="_FiU4MBytEeuxj7S1gn33fg">
+    <modelElement href="version-12.uml#_40tWEhysEeuxj7S1gn33fg"/>
+    <nameVisual xmi:id="_FiR04RytEeuxj7S1gn33fg" text=""/>
+    <sourceRole xmi:id="_FiR04hytEeuxj7S1gn33fg" aggregationKind="NONE" name="content" navigable="true">
+      <modelElement href="version-12.uml#_4zB7ERysEeuxj7S1gn33fg"/>
+      <visibility xmi:id="_FiR04xytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FiR05BytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_FiR05RytEeuxj7S1gn33fg" aggregationKind="NONE" name="">
+      <modelElement href="version-12.uml#_40tWExysEeuxj7S1gn33fg"/>
+      <visibility xmi:id="_FiR05hytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FiR05xytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_FiTDABytEeuxj7S1gn33fg" target="_FiU4MBytEeuxj7S1gn33fg">
+    <modelElement href="version-12.uml#_40tWFBysEeuxj7S1gn33fg"/>
+    <nameVisual xmi:id="_FiTDARytEeuxj7S1gn33fg" text=""/>
+    <sourceRole xmi:id="_FiTDAhytEeuxj7S1gn33fg" aggregationKind="NONE" name="source" navigable="true">
+      <modelElement href="version-12.uml#_4zB7EhysEeuxj7S1gn33fg"/>
+      <visibility xmi:id="_FiTDAxytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FiTDBBytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_FiTDBRytEeuxj7S1gn33fg" aggregationKind="NONE" name="">
+      <modelElement href="version-12.uml#_40t9IBysEeuxj7S1gn33fg"/>
+      <visibility xmi:id="_FiTDBhytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FiTDBxytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_FiTqEBytEeuxj7S1gn33fg" target="_FiU4MBytEeuxj7S1gn33fg">
+    <modelElement href="version-12.uml#_40t9IRysEeuxj7S1gn33fg"/>
+    <nameVisual xmi:id="_FiURIBytEeuxj7S1gn33fg" text=""/>
+    <sourceRole xmi:id="_FiURIRytEeuxj7S1gn33fg" aggregationKind="NONE" name="domain" navigable="true">
+      <modelElement href="version-12.uml#_4zCiIBysEeuxj7S1gn33fg"/>
+      <visibility xmi:id="_FiURIhytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FiURIxytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_FiURJBytEeuxj7S1gn33fg" aggregationKind="NONE" name="">
+      <modelElement href="version-12.uml#_40t9IhysEeuxj7S1gn33fg"/>
+      <visibility xmi:id="_FiURJRytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FiURJhytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_FmN5sBytEeuxj7S1gn33fg" targetItem="_FmrM2RytEeuxj7S1gn33fg" sourceItem="_Fky9YBytEeuxj7S1gn33fg"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_FmltIBytEeuxj7S1gn33fg" source="_FmrMsBytEeuxj7S1gn33fg">
+    <modelElement href="version-12.uml#_45JxMRysEeuxj7S1gn33fg"/>
+    <stereotypes xmi:id="_FmltIRytEeuxj7S1gn33fg" name="Reference">
+      <modelElement href="version-12.uml#_45SUEBysEeuxj7S1gn33fg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_FmltIhytEeuxj7S1gn33fg" text=""/>
+    <sourceRole xmi:id="_FmltIxytEeuxj7S1gn33fg" aggregationKind="NONE" name="">
+      <modelElement href="version-12.uml#_45JxMhysEeuxj7S1gn33fg"/>
+      <visibility xmi:id="_FmltJBytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FmltJRytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_FmltJhytEeuxj7S1gn33fg" aggregationKind="NONE" name="log" navigable="true">
+      <modelElement href="version-12.uml#_4y6mURysEeuxj7S1gn33fg"/>
+      <visibility xmi:id="_FmltJxytEeuxj7S1gn33fg" label="-"/>
+      <cardinality xmi:id="_FmltKBytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_FmqloBytEeuxj7S1gn33fg" sourceAnchor="325.0,169.0" targetAnchor="77.0,0.0" target="_FpJR4BytEeuxj7S1gn33fg" source="_FmrMsBytEeuxj7S1gn33fg">
+    <modelElement href="version-12.uml#_45SUERysEeuxj7S1gn33fg"/>
+    <stereotypes xmi:id="_FmqloRytEeuxj7S1gn33fg" name="Reference">
+      <modelElement href="version-12.uml#_45aP4BysEeuxj7S1gn33fg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_FmqlohytEeuxj7S1gn33fg" text="">
+      <visualProperties xmi:id="_GLdUwBytEeuxj7S1gn33fg" position="-21.0,-9.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_FmqloxytEeuxj7S1gn33fg" aggregationKind="NONE" name="">
+      <modelElement href="version-12.uml#_45SUEhysEeuxj7S1gn33fg"/>
+      <visualProperties xmi:id="_GLcGoBytEeuxj7S1gn33fg" position="6.0,5.5"/>
+      <visibility xmi:id="_FmqlpBytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FmqlpRytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_FmqlphytEeuxj7S1gn33fg" aggregationKind="NONE" name="covidUpdatesRepository" navigable="true">
+      <modelElement href="version-12.uml#_4y7NYBysEeuxj7S1gn33fg"/>
+      <visualProperties xmi:id="_GLdUwRytEeuxj7S1gn33fg" position="-149.5,-45.5"/>
+      <visibility xmi:id="_FmqlpxytEeuxj7S1gn33fg" label="-"/>
+      <cardinality xmi:id="_FmqlqBytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Fsp44BytEeuxj7S1gn33fg" sourceAnchor="882.0,123.0" targetAnchor="0.0,85.0" target="_FmrMsBytEeuxj7S1gn33fg" source="_FwX7QBytEeuxj7S1gn33fg">
+    <modelElement href="version-12.uml#_47CnkRysEeuxj7S1gn33fg"/>
+    <stereotypes xmi:id="_Fv72YxytEeuxj7S1gn33fg" name="Reference">
+      <modelElement href="version-12.uml#_47KjYBysEeuxj7S1gn33fg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Fv72YBytEeuxj7S1gn33fg" text="">
+      <visualProperties xmi:id="_GLjbYBytEeuxj7S1gn33fg" position="-98.0,-7.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_Fv72YRytEeuxj7S1gn33fg" aggregationKind="NONE" name="">
+      <modelElement href="version-12.uml#_47CnkhysEeuxj7S1gn33fg"/>
+      <visualProperties xmi:id="_GLfJ8BytEeuxj7S1gn33fg" position="5.0,-46.5"/>
+      <visibility xmi:id="_FwB9ARytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FwB9ABytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_Fv72YhytEeuxj7S1gn33fg" aggregationKind="NONE" name="covidUpdatesQueryService" navigable="true">
+      <modelElement href="version-12.uml#_4zRytBysEeuxj7S1gn33fg"/>
+      <visualProperties xmi:id="_GLjbYRytEeuxj7S1gn33fg" position="-162.5,5.5"/>
+      <visibility xmi:id="_FwCkERytEeuxj7S1gn33fg" label="-"/>
+      <cardinality xmi:id="_FwCkEBytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_Fu24UBytEeuxj7S1gn33fg" source="_FwX7QBytEeuxj7S1gn33fg">
+    <modelElement href="version-12.uml#_464PgRysEeuxj7S1gn33fg"/>
+    <stereotypes xmi:id="_FwBV8BytEeuxj7S1gn33fg" name="Reference">
+      <modelElement href="version-12.uml#_469IABysEeuxj7S1gn33fg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_Fv-5sBytEeuxj7S1gn33fg" text=""/>
+    <sourceRole xmi:id="_Fv_gwBytEeuxj7S1gn33fg" aggregationKind="NONE" name="">
+      <modelElement href="version-12.uml#_464PghysEeuxj7S1gn33fg"/>
+      <visibility xmi:id="_FwDyMRytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FwDyMBytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_FwAu4BytEeuxj7S1gn33fg" aggregationKind="NONE" name="log" navigable="true">
+      <modelElement href="version-12.uml#_4zQkkBysEeuxj7S1gn33fg"/>
+      <visibility xmi:id="_FwDyMxytEeuxj7S1gn33fg" label="-"/>
+      <cardinality xmi:id="_FwDyMhytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_FwFAUBytEeuxj7S1gn33fg" sourceAnchor="441.0,0.0" targetAnchor="172.0,124.0" target="_F4WLgBytEeuxj7S1gn33fg" source="_FwX7QBytEeuxj7S1gn33fg">
+    <modelElement href="version-12.uml#_469vEBysEeuxj7S1gn33fg"/>
+    <stereotypes xmi:id="_FwFAURytEeuxj7S1gn33fg" name="Reference">
+      <modelElement href="version-12.uml#_47CnkBysEeuxj7S1gn33fg"/>
+    </stereotypes>
+    <nameVisual xmi:id="_FwFAUhytEeuxj7S1gn33fg" text="">
+      <visualProperties xmi:id="_GLpiABytEeuxj7S1gn33fg" position="-21.0,-9.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_FwFAUxytEeuxj7S1gn33fg" aggregationKind="NONE" name="">
+      <modelElement href="version-12.uml#_469vERysEeuxj7S1gn33fg"/>
+      <visualProperties xmi:id="_GLoT4BytEeuxj7S1gn33fg" position="-20.0,-45.5"/>
+      <visibility xmi:id="_FwFAVBytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FwFAVRytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_FwFAVhytEeuxj7S1gn33fg" aggregationKind="NONE" name="covidUpdatesService" navigable="true">
+      <modelElement href="version-12.uml#_4zRysxysEeuxj7S1gn33fg"/>
+      <visualProperties xmi:id="_GLqJEBytEeuxj7S1gn33fg" position="2.0,5.0"/>
+      <visibility xmi:id="_FwFAVxytEeuxj7S1gn33fg" label="-"/>
+      <cardinality xmi:id="_FwFAWBytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_F3t5YBytEeuxj7S1gn33fg" targetItem="_F4WLgBytEeuxj7S1gn33fg" sourceItem="_F1rSABytEeuxj7S1gn33fg"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_FdbxIBytEeuxj7S1gn33fg" sourceConnectionVisual="_Fd8HcBytEeuxj7S1gn33fg" text="A CovidUpdates." item="_FeCOEBytEeuxj7S1gn33fg">
+    <modelElement href="version-12.uml#_40laRRysEeuxj7S1gn33fg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_FgsggBytEeuxj7S1gn33fg" sourceConnectionVisual="_Fh7PkBytEeuxj7S1gn33fg" text="Criteria class for the {@link com.smart.covid.domain.CovidUpdates} entity. This class is used&#xA;in {@link com.smart.covid.web.rest.CovidUpdatesResource} to receive all the possible filtering options from&#xA;the Http GET request parameters.&#xA;For example the following could be a valid request:&#xA;{@code /covid-updates?id.greaterThan=5&amp;attr1.contains=something&amp;attr2.specified=false}&#xA;As Spring is unable to properly convert the types, unless specific {@link Filter} class are used, we need to use&#xA;fix type specific filters." item="_FiU4MBytEeuxj7S1gn33fg">
+    <modelElement href="version-12.uml#_40sH9xysEeuxj7S1gn33fg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_Fky9YBytEeuxj7S1gn33fg" sourceConnectionVisual="_FmN5sBytEeuxj7S1gn33fg" text="Function to convert {@link CovidUpdatesCriteria} to a {@link Specification}&#xA;     * @param criteria The object which holds all the filters, which the entities should match.&#xA;     * @return the matching {@link Specification} of the entity." item="_FmrM2RytEeuxj7S1gn33fg">
+    <modelElement href="version-12.uml#_40rg5BysEeuxj7S1gn33fg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_F1rSABytEeuxj7S1gn33fg" sourceConnectionVisual="_F3t5YBytEeuxj7S1gn33fg" text="Service Interface for managing {@link CovidUpdates}." item="_F4WLgBytEeuxj7S1gn33fg">
+    <modelElement href="version-12.uml#_40rg5RysEeuxj7S1gn33fg"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_FmrMsBytEeuxj7S1gn33fg" name="CovidUpdatesQueryService" associationsIn="_Fsp44BytEeuxj7S1gn33fg" associationsOut="_FmltIBytEeuxj7S1gn33fg _FmqloBytEeuxj7S1gn33fg">
+    <modelElement href="version-12.uml#_377T8BysEeuxj7S1gn33fg"/>
+    <visualProperties xmi:id="_FmrMsRytEeuxj7S1gn33fg" position="1205.0,384.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_FmrMshytEeuxj7S1gn33fg" name="LegacyStyledElement">
+      <modelElement href="version-12.uml#_378iEBysEeuxj7S1gn33fg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_FmrMsxytEeuxj7S1gn33fg" name="Annotations">
+      <modelElement href="version-12.uml#_37-XQBysEeuxj7S1gn33fg"/>
+    </stereotypes>
+    <visibility xmi:id="_FmrMtBytEeuxj7S1gn33fg" label="+"/>
+    <attributes xmi:id="_FmrMtRytEeuxj7S1gn33fg" defaultValue="LoggerFactory.getLogger(CovidUpdatesQueryService.class)" name="log">
+      <modelElement href="version-12.uml#_4y6mURysEeuxj7S1gn33fg"/>
+      <visibility xmi:id="_FmrMthytEeuxj7S1gn33fg" label="-"/>
+      <cardinality xmi:id="_FmrMtxytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <type xmi:id="_FmrMuBytEeuxj7S1gn33fg" name="Logger">
+        <modelElement href="version-12.uml#_4PP4kRysEeuxj7S1gn33fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_FmrMuRytEeuxj7S1gn33fg" name="covidUpdatesRepository">
+      <modelElement href="version-12.uml#_4y7NYBysEeuxj7S1gn33fg"/>
+      <visibility xmi:id="_FmrMuhytEeuxj7S1gn33fg" label="-"/>
+      <cardinality xmi:id="_FmrMuxytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <type xmi:id="_FmrMvBytEeuxj7S1gn33fg" name="CovidUpdatesRepository">
+        <modelElement href="version-12.uml#_35IeoBysEeuxj7S1gn33fg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_FmrMvRytEeuxj7S1gn33fg" name="CovidUpdatesQueryService">
+      <modelElement href="version-12.uml#_4fukkRysEeuxj7S1gn33fg"/>
+      <keywords xmi:id="_FmrMvhytEeuxj7S1gn33fg" keyword="create"/>
+      <stereotypes xmi:id="_FmrMvxytEeuxj7S1gn33fg" name="StyledElement">
+        <modelElement href="version-12.uml#_4fvLoxysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FmrMwBytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FmrMwRytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FmrMwhytEeuxj7S1gn33fg">
+        <modelElement href="version-12.uml#_4fvLohysEeuxj7S1gn33fg"/>
+        <type xmi:id="_FmrMwxytEeuxj7S1gn33fg" name="CovidUpdatesQueryService">
+          <modelElement href="version-12.uml#_377T8BysEeuxj7S1gn33fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_FmrMxBytEeuxj7S1gn33fg" name="covidUpdatesRepository">
+        <modelElement href="version-12.uml#_4fukkhysEeuxj7S1gn33fg"/>
+        <cardinality xmi:id="_FmrMxRytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+        <type xmi:id="_FmrMxhytEeuxj7S1gn33fg" name="CovidUpdatesRepository">
+          <modelElement href="version-12.uml#_35IeoBysEeuxj7S1gn33fg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_FmrMxxytEeuxj7S1gn33fg" name="findByCriteria">
+      <modelElement href="version-12.uml#_4fvLpBysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_FmrMyBytEeuxj7S1gn33fg" name="Annotations">
+        <modelElement href="version-12.uml#_4fvyshysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FmrMyRytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FmrMyhytEeuxj7S1gn33fg" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_FmrMyxytEeuxj7S1gn33fg">
+        <modelElement href="version-12.uml#_4fvysBysEeuxj7S1gn33fg"/>
+        <type xmi:id="_FmrMzBytEeuxj7S1gn33fg" name="CovidUpdates">
+          <modelElement href="version-12.uml#_33F3QBysEeuxj7S1gn33fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_FmrMzRytEeuxj7S1gn33fg" name="criteria">
+        <modelElement href="version-12.uml#_4fvLpRysEeuxj7S1gn33fg"/>
+        <cardinality xmi:id="_FmrMzhytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+        <type xmi:id="_FmrMzxytEeuxj7S1gn33fg" name="CovidUpdatesCriteria">
+          <modelElement href="version-12.uml#_39QwsBysEeuxj7S1gn33fg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_FmrM0BytEeuxj7S1gn33fg" name="countByCriteria">
+      <modelElement href="version-12.uml#_4fwZwBysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_FmrM0RytEeuxj7S1gn33fg" name="Annotations">
+        <modelElement href="version-12.uml#_4fxA0RysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FmrM0hytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FmrM0xytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FmrM1BytEeuxj7S1gn33fg">
+        <modelElement href="version-12.uml#_4fxA0BysEeuxj7S1gn33fg"/>
+        <type xmi:id="_FmrM1RytEeuxj7S1gn33fg" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_FmrM1hytEeuxj7S1gn33fg" name="criteria">
+        <modelElement href="version-12.uml#_4fwZwRysEeuxj7S1gn33fg"/>
+        <cardinality xmi:id="_FmrM1xytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+        <type xmi:id="_FmrM2BytEeuxj7S1gn33fg" name="CovidUpdatesCriteria">
+          <modelElement href="version-12.uml#_39QwsBysEeuxj7S1gn33fg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_FmrM2RytEeuxj7S1gn33fg" comments="_Fky9YBytEeuxj7S1gn33fg" targetConnectionVisual="_FmN5sBytEeuxj7S1gn33fg" name="createSpecification">
+      <modelElement href="version-12.uml#_4fxn4BysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_FmrM2hytEeuxj7S1gn33fg" name="Generics">
+        <modelElement href="version-12.uml#_4f2gYBysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_FmrM2xytEeuxj7S1gn33fg" name="StyledElement">
+        <modelElement href="version-12.uml#_4f2gYRysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FmrM3BytEeuxj7S1gn33fg" label="#"/>
+      <cardinality xmi:id="_FmrM3RytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FmrM3hytEeuxj7S1gn33fg">
+        <modelElement href="version-12.uml#_4tqS4BysEeuxj7S1gn33fg"/>
+        <type xmi:id="_FmrM3xytEeuxj7S1gn33fg" name="Specification">
+          <modelElement href="version-12.uml#_4fkzkRysEeuxj7S1gn33fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_FmrM4BytEeuxj7S1gn33fg" name="criteria">
+        <modelElement href="version-12.uml#_4fxn4RysEeuxj7S1gn33fg"/>
+        <cardinality xmi:id="_FmrM4RytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+        <type xmi:id="_FmrM4hytEeuxj7S1gn33fg" name="CovidUpdatesCriteria">
+          <modelElement href="version-12.uml#_39QwsBysEeuxj7S1gn33fg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_FmrM4xytEeuxj7S1gn33fg" name="findByCriteria">
+      <modelElement href="version-12.uml#_4tjlMBysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_FmrM5BytEeuxj7S1gn33fg" name="Generics">
+        <modelElement href="version-12.uml#_4tpEwBysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_FmrM5RytEeuxj7S1gn33fg" name="Annotations">
+        <modelElement href="version-12.uml#_4tpr0RysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FmrM5hytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FmrM5xytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FmrM6BytEeuxj7S1gn33fg">
+        <modelElement href="version-12.uml#_4tpr0BysEeuxj7S1gn33fg"/>
+        <type xmi:id="_FmrM6RytEeuxj7S1gn33fg" name="Page">
+          <modelElement href="version-12.uml#_4bkdUBysEeuxj7S1gn33fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_FmrM6hytEeuxj7S1gn33fg" name="criteria">
+        <modelElement href="version-12.uml#_4tjlMRysEeuxj7S1gn33fg"/>
+        <cardinality xmi:id="_FmrM6xytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+        <type xmi:id="_FmrM7BytEeuxj7S1gn33fg" name="CovidUpdatesCriteria">
+          <modelElement href="version-12.uml#_39QwsBysEeuxj7S1gn33fg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_FmrM7RytEeuxj7S1gn33fg" name="page">
+        <modelElement href="version-12.uml#_4tjlMhysEeuxj7S1gn33fg"/>
+        <cardinality xmi:id="_FmrM7hytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+        <type xmi:id="_FmrM7xytEeuxj7S1gn33fg" name="Pageable">
+          <modelElement href="version-12.uml#_4bpV0RysEeuxj7S1gn33fg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_FpJR4BytEeuxj7S1gn33fg" name="CovidUpdatesRepository" associationsIn="_FmqloBytEeuxj7S1gn33fg">
+    <modelElement href="version-12.uml#_35IeoBysEeuxj7S1gn33fg"/>
+    <visualProperties xmi:id="_FpJR4RytEeuxj7S1gn33fg" position="1453.0,753.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_FpJ48BytEeuxj7S1gn33fg" name="LegacyStyledElement">
+      <modelElement href="version-12.uml#_35JswBysEeuxj7S1gn33fg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_FpJ48RytEeuxj7S1gn33fg" name="Annotations">
+      <modelElement href="version-12.uml#_35KT0BysEeuxj7S1gn33fg"/>
+    </stereotypes>
+    <visibility xmi:id="_FpJ48hytEeuxj7S1gn33fg" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_FwX7QBytEeuxj7S1gn33fg" name="CovidUpdatesResource" associationsOut="_Fsp44BytEeuxj7S1gn33fg _Fu24UBytEeuxj7S1gn33fg _FwFAUBytEeuxj7S1gn33fg">
+    <modelElement href="version-12.uml#_3-NL4BysEeuxj7S1gn33fg"/>
+    <visualProperties xmi:id="_FwX7QRytEeuxj7S1gn33fg" position="10.0,346.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_FwX7QhytEeuxj7S1gn33fg" name="LegacyStyledElement">
+      <modelElement href="version-12.uml#_3-Ny8BysEeuxj7S1gn33fg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_FwX7QxytEeuxj7S1gn33fg" name="Annotations">
+      <modelElement href="version-12.uml#_3-PoIBysEeuxj7S1gn33fg"/>
+    </stereotypes>
+    <visibility xmi:id="_FwX7RBytEeuxj7S1gn33fg" label="+"/>
+    <attributes xmi:id="_FwX7RRytEeuxj7S1gn33fg" defaultValue="LoggerFactory.getLogger(CovidUpdatesResource.class)" name="log">
+      <modelElement href="version-12.uml#_4zQkkBysEeuxj7S1gn33fg"/>
+      <visibility xmi:id="_FwX7RhytEeuxj7S1gn33fg" label="-"/>
+      <cardinality xmi:id="_FwX7RxytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <type xmi:id="_FwX7SBytEeuxj7S1gn33fg" name="Logger">
+        <modelElement href="version-12.uml#_4PP4kRysEeuxj7S1gn33fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_FwX7SRytEeuxj7S1gn33fg" defaultValue="&quot;covidUpdates&quot;" name="ENTITY_NAME" staticAttribute="true">
+      <modelElement href="version-12.uml#_4zRLoBysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_FwX7ShytEeuxj7S1gn33fg" name="StyledElement">
+        <modelElement href="version-12.uml#_4zRLohysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FwX7SxytEeuxj7S1gn33fg" label="-"/>
+      <cardinality xmi:id="_FwX7TBytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <type xmi:id="_FwX7TRytEeuxj7S1gn33fg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_FwX7ThytEeuxj7S1gn33fg" name="applicationName">
+      <modelElement href="version-12.uml#_4zRLoxysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_FwX7TxytEeuxj7S1gn33fg" name="Annotations">
+        <modelElement href="version-12.uml#_4zRysBysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FwX7UBytEeuxj7S1gn33fg" label="-"/>
+      <cardinality xmi:id="_FwX7URytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <type xmi:id="_FwX7UhytEeuxj7S1gn33fg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_FwX7UxytEeuxj7S1gn33fg" name="covidUpdatesService">
+      <modelElement href="version-12.uml#_4zRysxysEeuxj7S1gn33fg"/>
+      <visibility xmi:id="_FwX7VBytEeuxj7S1gn33fg" label="-"/>
+      <cardinality xmi:id="_FwX7VRytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <type xmi:id="_FwX7VhytEeuxj7S1gn33fg" name="CovidUpdatesService">
+        <modelElement href="version-12.uml#_38DPwBysEeuxj7S1gn33fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_FwX7VxytEeuxj7S1gn33fg" name="covidUpdatesQueryService">
+      <modelElement href="version-12.uml#_4zRytBysEeuxj7S1gn33fg"/>
+      <visibility xmi:id="_FwX7WBytEeuxj7S1gn33fg" label="-"/>
+      <cardinality xmi:id="_FwX7WRytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <type xmi:id="_FwX7WhytEeuxj7S1gn33fg" name="CovidUpdatesQueryService">
+        <modelElement href="version-12.uml#_377T8BysEeuxj7S1gn33fg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_FwX7WxytEeuxj7S1gn33fg" name="CovidUpdatesResource">
+      <modelElement href="version-12.uml#_4kGHMBysEeuxj7S1gn33fg"/>
+      <keywords xmi:id="_FwX7XBytEeuxj7S1gn33fg" keyword="create"/>
+      <stereotypes xmi:id="_FwX7XRytEeuxj7S1gn33fg" name="StyledElement">
+        <modelElement href="version-12.uml#_4kGuRRysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FwX7XhytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FwX7XxytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FwX7YBytEeuxj7S1gn33fg">
+        <modelElement href="version-12.uml#_4kGuRBysEeuxj7S1gn33fg"/>
+        <type xmi:id="_FwX7YRytEeuxj7S1gn33fg" name="CovidUpdatesResource">
+          <modelElement href="version-12.uml#_3-NL4BysEeuxj7S1gn33fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_FwX7YhytEeuxj7S1gn33fg" name="covidUpdatesService">
+        <modelElement href="version-12.uml#_4kGuQBysEeuxj7S1gn33fg"/>
+        <cardinality xmi:id="_FwX7YxytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+        <type xmi:id="_FwX7ZBytEeuxj7S1gn33fg" name="CovidUpdatesService">
+          <modelElement href="version-12.uml#_38DPwBysEeuxj7S1gn33fg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_FwX7ZRytEeuxj7S1gn33fg" name="covidUpdatesQueryService">
+        <modelElement href="version-12.uml#_4kGuQRysEeuxj7S1gn33fg"/>
+        <cardinality xmi:id="_FwX7ZhytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+        <type xmi:id="_FwX7ZxytEeuxj7S1gn33fg" name="CovidUpdatesQueryService">
+          <modelElement href="version-12.uml#_377T8BysEeuxj7S1gn33fg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_FwX7aBytEeuxj7S1gn33fg" name="createCovidUpdates">
+      <modelElement href="version-12.uml#_4kHVUBysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_FwX7aRytEeuxj7S1gn33fg" name="Generics">
+        <modelElement href="version-12.uml#_4kOqEBysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_FwX7ahytEeuxj7S1gn33fg" name="Annotations">
+        <modelElement href="version-12.uml#_4kP4MBysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FwX7axytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FwX7bBytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FwX7bRytEeuxj7S1gn33fg">
+        <modelElement href="version-12.uml#_4vTRoBysEeuxj7S1gn33fg"/>
+        <type xmi:id="_FwX7bhytEeuxj7S1gn33fg" name="ResponseEntity">
+          <modelElement href="version-12.uml#_4i4mQRysEeuxj7S1gn33fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_FwX7bxytEeuxj7S1gn33fg" name="covidUpdates">
+        <modelElement href="version-12.uml#_4kHVURysEeuxj7S1gn33fg"/>
+        <cardinality xmi:id="_FwX7cBytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+        <type xmi:id="_FwX7cRytEeuxj7S1gn33fg" name="CovidUpdates">
+          <modelElement href="version-12.uml#_33F3QBysEeuxj7S1gn33fg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_FwX7chytEeuxj7S1gn33fg" name="updateCovidUpdates">
+      <modelElement href="version-12.uml#_4kQfQBysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_FwX7cxytEeuxj7S1gn33fg" name="Generics">
+        <modelElement href="version-12.uml#_4kZCIBysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_FwX7dBytEeuxj7S1gn33fg" name="Annotations">
+        <modelElement href="version-12.uml#_4kZpMhysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FwX7dRytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FwX7dhytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FwX7dxytEeuxj7S1gn33fg">
+        <modelElement href="version-12.uml#_4vTRoRysEeuxj7S1gn33fg"/>
+        <type xmi:id="_FwX7eBytEeuxj7S1gn33fg" name="ResponseEntity">
+          <modelElement href="version-12.uml#_4i4mQRysEeuxj7S1gn33fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_FwX7eRytEeuxj7S1gn33fg" name="covidUpdates">
+        <modelElement href="version-12.uml#_4kQfQRysEeuxj7S1gn33fg"/>
+        <cardinality xmi:id="_FwX7ehytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+        <type xmi:id="_FwX7exytEeuxj7S1gn33fg" name="CovidUpdates">
+          <modelElement href="version-12.uml#_33F3QBysEeuxj7S1gn33fg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_FwX7fBytEeuxj7S1gn33fg" name="countCovidUpdates">
+      <modelElement href="version-12.uml#_4ka3UBysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_FwX7fRytEeuxj7S1gn33fg" name="Generics">
+        <modelElement href="version-12.uml#_4kjaMBysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_FwX7fhytEeuxj7S1gn33fg" name="Annotations">
+        <modelElement href="version-12.uml#_4kkBQBysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FwX7fxytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FwX7gBytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FwX7gRytEeuxj7S1gn33fg">
+        <modelElement href="version-12.uml#_4vZ_UBysEeuxj7S1gn33fg"/>
+        <type xmi:id="_FwX7ghytEeuxj7S1gn33fg" name="ResponseEntity">
+          <modelElement href="version-12.uml#_4i4mQRysEeuxj7S1gn33fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_FwX7gxytEeuxj7S1gn33fg" name="criteria">
+        <modelElement href="version-12.uml#_4ka3URysEeuxj7S1gn33fg"/>
+        <cardinality xmi:id="_FwX7hBytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+        <type xmi:id="_FwX7hRytEeuxj7S1gn33fg" name="CovidUpdatesCriteria">
+          <modelElement href="version-12.uml#_39QwsBysEeuxj7S1gn33fg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_FwX7hhytEeuxj7S1gn33fg" name="getAllCovidUpdates">
+      <modelElement href="version-12.uml#_4vT4sBysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_FwX7hxytEeuxj7S1gn33fg" name="Generics">
+        <modelElement href="version-12.uml#_4vYxMBysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_FwX7iBytEeuxj7S1gn33fg" name="Annotations">
+        <modelElement href="version-12.uml#_4vZYQBysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FwX7iRytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FwX7ihytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FwX7ixytEeuxj7S1gn33fg">
+        <modelElement href="version-12.uml#_4vYxMRysEeuxj7S1gn33fg"/>
+        <type xmi:id="_FwX7jBytEeuxj7S1gn33fg" name="ResponseEntity">
+          <modelElement href="version-12.uml#_4i4mQRysEeuxj7S1gn33fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_FwX7jRytEeuxj7S1gn33fg" name="criteria">
+        <modelElement href="version-12.uml#_4vT4sRysEeuxj7S1gn33fg"/>
+        <cardinality xmi:id="_FwX7jhytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+        <type xmi:id="_FwX7jxytEeuxj7S1gn33fg" name="CovidUpdatesCriteria">
+          <modelElement href="version-12.uml#_39QwsBysEeuxj7S1gn33fg"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_FwX7kBytEeuxj7S1gn33fg" name="pageable">
+        <modelElement href="version-12.uml#_4vT4shysEeuxj7S1gn33fg"/>
+        <cardinality xmi:id="_FwX7kRytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+        <type xmi:id="_FwX7khytEeuxj7S1gn33fg" name="Pageable">
+          <modelElement href="version-12.uml#_4bpV0RysEeuxj7S1gn33fg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_FwX7kxytEeuxj7S1gn33fg" name="getCovidUpdates">
+      <modelElement href="version-12.uml#_4vamYBysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_FwX7lBytEeuxj7S1gn33fg" name="Generics">
+        <modelElement href="version-12.uml#_4vgF8BysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_FwX7lRytEeuxj7S1gn33fg" name="Annotations">
+        <modelElement href="version-12.uml#_4vgtAhysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FwX7lhytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FwX7lxytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FwX7mBytEeuxj7S1gn33fg">
+        <modelElement href="version-12.uml#_4vgF8RysEeuxj7S1gn33fg"/>
+        <type xmi:id="_FwX7mRytEeuxj7S1gn33fg" name="ResponseEntity">
+          <modelElement href="version-12.uml#_4i4mQRysEeuxj7S1gn33fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_FwX7mhytEeuxj7S1gn33fg" name="id">
+        <modelElement href="version-12.uml#_4vamYRysEeuxj7S1gn33fg"/>
+        <cardinality xmi:id="_FwX7mxytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+        <type xmi:id="_FwX7nBytEeuxj7S1gn33fg" name="Long">
+          <modelElement href="version-12.uml#_4rQfIRysEeuxj7S1gn33fg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_FwX7nRytEeuxj7S1gn33fg" name="deleteCovidUpdates">
+      <modelElement href="version-12.uml#_4vhUEBysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_FwX7nhytEeuxj7S1gn33fg" name="Generics">
+        <modelElement href="version-12.uml#_4vmMkBysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_FwX7nxytEeuxj7S1gn33fg" name="Annotations">
+        <modelElement href="version-12.uml#_4vmzoRysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FwX7oBytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FwX7oRytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FwX7ohytEeuxj7S1gn33fg">
+        <modelElement href="version-12.uml#_4vmMkRysEeuxj7S1gn33fg"/>
+        <type xmi:id="_FwX7oxytEeuxj7S1gn33fg" name="ResponseEntity">
+          <modelElement href="version-12.uml#_4i4mQRysEeuxj7S1gn33fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_FwX7pBytEeuxj7S1gn33fg" name="id">
+        <modelElement href="version-12.uml#_4vhUERysEeuxj7S1gn33fg"/>
+        <cardinality xmi:id="_FwX7pRytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+        <type xmi:id="_FwX7phytEeuxj7S1gn33fg" name="Long">
+          <modelElement href="version-12.uml#_4rQfIRysEeuxj7S1gn33fg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_F4WLgBytEeuxj7S1gn33fg" comments="_F1rSABytEeuxj7S1gn33fg" targetConnectionVisual="_F3t5YBytEeuxj7S1gn33fg" name="CovidUpdatesService" associationsIn="_FwFAUBytEeuxj7S1gn33fg">
+    <modelElement href="version-12.uml#_38DPwBysEeuxj7S1gn33fg"/>
+    <visualProperties xmi:id="_F4WLgRytEeuxj7S1gn33fg" position="279.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_F4WLghytEeuxj7S1gn33fg" label="+"/>
+    <operations xmi:id="_F4WLgxytEeuxj7S1gn33fg" name="save">
+      <modelElement href="version-12.uml#_4f3ugBysEeuxj7S1gn33fg"/>
+      <visibility xmi:id="_F4WLhBytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_F4WLhRytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_F4WLhhytEeuxj7S1gn33fg">
+        <modelElement href="version-12.uml#_4f3ughysEeuxj7S1gn33fg"/>
+        <type xmi:id="_F4WLhxytEeuxj7S1gn33fg" name="CovidUpdates">
+          <modelElement href="version-12.uml#_33F3QBysEeuxj7S1gn33fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_F4WLiBytEeuxj7S1gn33fg" name="covidUpdates">
+        <modelElement href="version-12.uml#_4f3ugRysEeuxj7S1gn33fg"/>
+        <cardinality xmi:id="_F4WLiRytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+        <type xmi:id="_F4WLihytEeuxj7S1gn33fg" name="CovidUpdates">
+          <modelElement href="version-12.uml#_33F3QBysEeuxj7S1gn33fg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_F4WLixytEeuxj7S1gn33fg" name="findAll">
+      <modelElement href="version-12.uml#_4tvycBysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_F4WLjBytEeuxj7S1gn33fg" name="Generics">
+        <modelElement href="version-12.uml#_4t15EBysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_F4WLjRytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_F4WLjhytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_F4WLjxytEeuxj7S1gn33fg">
+        <modelElement href="version-12.uml#_4t15ERysEeuxj7S1gn33fg"/>
+        <type xmi:id="_F4WLkBytEeuxj7S1gn33fg" name="Page">
+          <modelElement href="version-12.uml#_4bkdUBysEeuxj7S1gn33fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_F4WLkRytEeuxj7S1gn33fg" name="pageable">
+        <modelElement href="version-12.uml#_4tvycRysEeuxj7S1gn33fg"/>
+        <cardinality xmi:id="_F4WLkhytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+        <type xmi:id="_F4WLkxytEeuxj7S1gn33fg" name="Pageable">
+          <modelElement href="version-12.uml#_4bpV0RysEeuxj7S1gn33fg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_F4WLlBytEeuxj7S1gn33fg" name="findOne">
+      <modelElement href="version-12.uml#_4t2gIBysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_F4WLlRytEeuxj7S1gn33fg" name="Generics">
+        <modelElement href="version-12.uml#_4t7_sBysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_F4WLlhytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_F4WLlxytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_F4WLmBytEeuxj7S1gn33fg">
+        <modelElement href="version-12.uml#_4t7_sRysEeuxj7S1gn33fg"/>
+        <type xmi:id="_F4WLmRytEeuxj7S1gn33fg" name="Optional">
+          <modelElement href="version-12.uml#_4cAiMBysEeuxj7S1gn33fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_F4WLmhytEeuxj7S1gn33fg" name="id">
+        <modelElement href="version-12.uml#_4t2gIRysEeuxj7S1gn33fg"/>
+        <cardinality xmi:id="_F4WLmxytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+        <type xmi:id="_F4WLnBytEeuxj7S1gn33fg" name="Long">
+          <modelElement href="version-12.uml#_4rQfIRysEeuxj7S1gn33fg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_F4WLnRytEeuxj7S1gn33fg" name="delete">
+      <modelElement href="version-12.uml#_4t8mwBysEeuxj7S1gn33fg"/>
+      <visibility xmi:id="_F4WLnhytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_F4WLnxytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <parameters xmi:id="_F4WLoBytEeuxj7S1gn33fg" name="id">
+        <modelElement href="version-12.uml#_4t8mwRysEeuxj7S1gn33fg"/>
+        <cardinality xmi:id="_F4WLoRytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+        <type xmi:id="_F4WLohytEeuxj7S1gn33fg" name="Long">
+          <modelElement href="version-12.uml#_4rQfIRysEeuxj7S1gn33fg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_FiU4MBytEeuxj7S1gn33fg" comments="_FgsggBytEeuxj7S1gn33fg" targetConnectionVisual="_Fh7PkBytEeuxj7S1gn33fg" name="CovidUpdatesCriteria" associationsIn="_FiOxkBytEeuxj7S1gn33fg _FiRN0BytEeuxj7S1gn33fg _FiR04BytEeuxj7S1gn33fg _FiTDABytEeuxj7S1gn33fg _FiTqEBytEeuxj7S1gn33fg">
+    <modelElement href="version-12.uml#_39QwsBysEeuxj7S1gn33fg"/>
+    <visualProperties xmi:id="_FiU4MRytEeuxj7S1gn33fg" position="409.0,717.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_FiU4MhytEeuxj7S1gn33fg" label="+"/>
+    <attributes xmi:id="_FiU4MxytEeuxj7S1gn33fg" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="version-12.uml#_4zBUABysEeuxj7S1gn33fg"/>
+      <visibility xmi:id="_FiU4NBytEeuxj7S1gn33fg" label="-"/>
+      <cardinality xmi:id="_FiU4NRytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <type xmi:id="_FiU4NhytEeuxj7S1gn33fg" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_FiU4NxytEeuxj7S1gn33fg" name="id">
+      <modelElement href="version-12.uml#_4zBUAhysEeuxj7S1gn33fg"/>
+      <visibility xmi:id="_FiU4OBytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FiU4ORytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <type xmi:id="_FiU4OhytEeuxj7S1gn33fg" name="LongFilter">
+        <modelElement href="version-12.uml#_4huIoRysEeuxj7S1gn33fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_FiU4OxytEeuxj7S1gn33fg" name="title">
+      <modelElement href="version-12.uml#_4zB7EBysEeuxj7S1gn33fg"/>
+      <visibility xmi:id="_FiU4PBytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FiU4PRytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <type xmi:id="_FiU4PhytEeuxj7S1gn33fg" name="StringFilter">
+        <modelElement href="version-12.uml#_4h02URysEeuxj7S1gn33fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_FiU4PxytEeuxj7S1gn33fg" name="content">
+      <modelElement href="version-12.uml#_4zB7ERysEeuxj7S1gn33fg"/>
+      <visibility xmi:id="_FiU4QBytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FiU4QRytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <type xmi:id="_FiU4QhytEeuxj7S1gn33fg" name="StringFilter">
+        <modelElement href="version-12.uml#_4h02URysEeuxj7S1gn33fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_FiU4QxytEeuxj7S1gn33fg" name="source">
+      <modelElement href="version-12.uml#_4zB7EhysEeuxj7S1gn33fg"/>
+      <visibility xmi:id="_FiU4RBytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FiU4RRytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <type xmi:id="_FiU4RhytEeuxj7S1gn33fg" name="StringFilter">
+        <modelElement href="version-12.uml#_4h02URysEeuxj7S1gn33fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_FiU4RxytEeuxj7S1gn33fg" name="domain">
+      <modelElement href="version-12.uml#_4zCiIBysEeuxj7S1gn33fg"/>
+      <visibility xmi:id="_FiU4SBytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FiU4SRytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <type xmi:id="_FiU4ShytEeuxj7S1gn33fg" name="StringFilter">
+        <modelElement href="version-12.uml#_4h02URysEeuxj7S1gn33fg"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_FiU4SxytEeuxj7S1gn33fg" name="CovidUpdatesCriteria">
+      <modelElement href="version-12.uml#_39R-0BysEeuxj7S1gn33fg"/>
+      <keywords xmi:id="_FiU4TBytEeuxj7S1gn33fg" keyword="create"/>
+      <stereotypes xmi:id="_FiU4TRytEeuxj7S1gn33fg" name="LegacyStyledElement">
+        <modelElement href="version-12.uml#_39Sl4BysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FiU4ThytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FiU4TxytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FiU4UBytEeuxj7S1gn33fg">
+        <modelElement href="version-12.uml#_39Sl4RysEeuxj7S1gn33fg"/>
+        <type xmi:id="_FiU4URytEeuxj7S1gn33fg" name="CovidUpdatesCriteria">
+          <modelElement href="version-12.uml#_39QwsBysEeuxj7S1gn33fg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_FiU4UhytEeuxj7S1gn33fg" name="copy">
+      <modelElement href="version-12.uml#_39TM8BysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_FiU4UxytEeuxj7S1gn33fg" name="LegacyStyledElement">
+        <modelElement href="version-12.uml#_39T0ABysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_FiU4VBytEeuxj7S1gn33fg" name="Annotations">
+        <modelElement href="version-12.uml#_39T0ARysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FiU4VRytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FiU4VhytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FiU4VxytEeuxj7S1gn33fg">
+        <modelElement href="version-12.uml#_4h8yIBysEeuxj7S1gn33fg"/>
+        <type xmi:id="_FiU4WBytEeuxj7S1gn33fg" name="CovidUpdatesCriteria">
+          <modelElement href="version-12.uml#_39QwsBysEeuxj7S1gn33fg"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_FiU4WRytEeuxj7S1gn33fg" name="hashCode">
+      <modelElement href="version-12.uml#_39UbEBysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_FiU4WhytEeuxj7S1gn33fg" name="LegacyStyledElement">
+        <modelElement href="version-12.uml#_39UbEhysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_FiU4WxytEeuxj7S1gn33fg" name="Annotations">
+        <modelElement href="version-12.uml#_39VCIBysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FiU4XBytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FiU4XRytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FiU4XhytEeuxj7S1gn33fg">
+        <modelElement href="version-12.uml#_39UbERysEeuxj7S1gn33fg"/>
+        <type xmi:id="_FiU4XxytEeuxj7S1gn33fg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_FiU4YBytEeuxj7S1gn33fg" name="toString">
+      <modelElement href="version-12.uml#_39VCIhysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_FiU4YRytEeuxj7S1gn33fg" name="LegacyStyledElement">
+        <modelElement href="version-12.uml#_39VCJBysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_FiU4YhytEeuxj7S1gn33fg" name="Annotations">
+        <modelElement href="version-12.uml#_39VpMBysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FiU4YxytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FiU4ZBytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FiU4ZRytEeuxj7S1gn33fg">
+        <modelElement href="version-12.uml#_39VCIxysEeuxj7S1gn33fg"/>
+        <type xmi:id="_FiU4ZhytEeuxj7S1gn33fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_FiU4ZxytEeuxj7S1gn33fg" name="CovidUpdatesCriteria">
+      <modelElement href="version-12.uml#_4h8LEBysEeuxj7S1gn33fg"/>
+      <keywords xmi:id="_FiU4aBytEeuxj7S1gn33fg" keyword="create"/>
+      <visibility xmi:id="_FiU4aRytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FiU4ahytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FiU4axytEeuxj7S1gn33fg">
+        <modelElement href="version-12.uml#_4h8LFBysEeuxj7S1gn33fg"/>
+        <type xmi:id="_FiU4bBytEeuxj7S1gn33fg" name="CovidUpdatesCriteria">
+          <modelElement href="version-12.uml#_39QwsBysEeuxj7S1gn33fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_FiU4bRytEeuxj7S1gn33fg" name="other">
+        <modelElement href="version-12.uml#_4h8LERysEeuxj7S1gn33fg"/>
+        <cardinality xmi:id="_FiU4bhytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+        <type xmi:id="_FiU4bxytEeuxj7S1gn33fg" name="CovidUpdatesCriteria">
+          <modelElement href="version-12.uml#_39QwsBysEeuxj7S1gn33fg"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_FiU4cBytEeuxj7S1gn33fg" name="equals">
+      <modelElement href="version-12.uml#_4uR98BysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_FiU4cRytEeuxj7S1gn33fg" name="LegacyStyledElement">
+        <modelElement href="version-12.uml#_4uSlARysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_FiU4chytEeuxj7S1gn33fg" name="Annotations">
+        <modelElement href="version-12.uml#_4uSlAhysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FiU4cxytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FiVfQBytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FiVfQRytEeuxj7S1gn33fg">
+        <modelElement href="version-12.uml#_4uSlABysEeuxj7S1gn33fg"/>
+        <type xmi:id="_FiVfQhytEeuxj7S1gn33fg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_FiVfQxytEeuxj7S1gn33fg" name="o">
+        <modelElement href="version-12.uml#_4uR98RysEeuxj7S1gn33fg"/>
+        <cardinality xmi:id="_FiVfRBytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+        <type xmi:id="_FiVfRRytEeuxj7S1gn33fg" name="Object">
+          <modelElement href="version-12.uml#_4pPs9BysEeuxj7S1gn33fg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_FeCOEBytEeuxj7S1gn33fg" comments="_FdbxIBytEeuxj7S1gn33fg" targetConnectionVisual="_Fd8HcBytEeuxj7S1gn33fg" name="CovidUpdates">
+    <modelElement href="version-12.uml#_33F3QBysEeuxj7S1gn33fg"/>
+    <visualProperties xmi:id="_FeCOERytEeuxj7S1gn33fg" position="70.0,702.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_FeCOEhytEeuxj7S1gn33fg" name="Table">
+      <modelElement href="version-12.uml#_33Q2YBysEeuxj7S1gn33fg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_FeCOExytEeuxj7S1gn33fg" name="JPA1StyledElement">
+      <modelElement href="version-12.uml#_33RdcBysEeuxj7S1gn33fg"/>
+    </stereotypes>
+    <stereotypes xmi:id="_FeCOFBytEeuxj7S1gn33fg" name="TechnicalSupplement">
+      <modelElement href="version-12.uml#_33TSoBysEeuxj7S1gn33fg"/>
+    </stereotypes>
+    <visibility xmi:id="_FeCOFRytEeuxj7S1gn33fg" label="+"/>
+    <attributes xmi:id="_FeCOFhytEeuxj7S1gn33fg" name="id">
+      <modelElement href="version-12.uml#_4xeb5xysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_FeCOFxytEeuxj7S1gn33fg" name="PrimaryKey">
+        <modelElement href="version-12.uml#_4xfC8BysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_FeCOGBytEeuxj7S1gn33fg" name="GeneratedValueMapping">
+        <modelElement href="version-12.uml#_4xfC8RysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FeCOGRytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FeCOGhytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <type xmi:id="_FeCOGxytEeuxj7S1gn33fg" name="Long">
+        <modelElement href="version-12.uml#_4rQfIRysEeuxj7S1gn33fg"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_FeCOHBytEeuxj7S1gn33fg" name="title">
+      <modelElement href="version-12.uml#_4xfqABysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_FeCOHRytEeuxj7S1gn33fg" name="Column">
+        <modelElement href="version-12.uml#_4xlJkBysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FeCOHhytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FeCOHxytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <type xmi:id="_FeCOIBytEeuxj7S1gn33fg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_FeCOIRytEeuxj7S1gn33fg" name="content">
+      <modelElement href="version-12.uml#_4xlwoBysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_FeCOIhytEeuxj7S1gn33fg" name="Column">
+        <modelElement href="version-12.uml#_4xqpIBysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FeCOIxytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FeCOJBytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <type xmi:id="_FeCOJRytEeuxj7S1gn33fg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_FeCOJhytEeuxj7S1gn33fg" name="source">
+      <modelElement href="version-12.uml#_4xrQMBysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_FeCOJxytEeuxj7S1gn33fg" name="Column">
+        <modelElement href="version-12.uml#_4xwIsBysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FeCOKBytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FeCOKRytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <type xmi:id="_FeCOKhytEeuxj7S1gn33fg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_FeCOKxytEeuxj7S1gn33fg" name="domain">
+      <modelElement href="version-12.uml#_4xxW0BysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_FeCOLBytEeuxj7S1gn33fg" name="Column">
+        <modelElement href="version-12.uml#_4x2PUBysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FeCOLRytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FeCOLhytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <type xmi:id="_FeCOLxytEeuxj7S1gn33fg" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_FeCOMBytEeuxj7S1gn33fg" name="title">
+      <modelElement href="version-12.uml#_33Vu4BysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_FeCOMRytEeuxj7S1gn33fg" name="StyledElement">
+        <modelElement href="version-12.uml#_33WV8BysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FeCOMhytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FeCOMxytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FeCONBytEeuxj7S1gn33fg">
+        <modelElement href="version-12.uml#_4aTSABysEeuxj7S1gn33fg"/>
+        <type xmi:id="_FeCONRytEeuxj7S1gn33fg" name="CovidUpdates">
+          <modelElement href="version-12.uml#_33F3QBysEeuxj7S1gn33fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_FeCONhytEeuxj7S1gn33fg" name="title">
+        <modelElement href="version-12.uml#_33Vu4RysEeuxj7S1gn33fg"/>
+        <cardinality xmi:id="_FeCONxytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+        <type xmi:id="_FeCOOBytEeuxj7S1gn33fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_FeCOORytEeuxj7S1gn33fg" name="content">
+      <modelElement href="version-12.uml#_33W9ABysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_FeCOOhytEeuxj7S1gn33fg" name="StyledElement">
+        <modelElement href="version-12.uml#_33YLIBysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FeCOOxytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FeCOPBytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FeCOPRytEeuxj7S1gn33fg">
+        <modelElement href="version-12.uml#_4aTSARysEeuxj7S1gn33fg"/>
+        <type xmi:id="_FeCOPhytEeuxj7S1gn33fg" name="CovidUpdates">
+          <modelElement href="version-12.uml#_33F3QBysEeuxj7S1gn33fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_FeCOPxytEeuxj7S1gn33fg" name="content">
+        <modelElement href="version-12.uml#_33W9ARysEeuxj7S1gn33fg"/>
+        <cardinality xmi:id="_FeCOQBytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+        <type xmi:id="_FeCOQRytEeuxj7S1gn33fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_FeCOQhytEeuxj7S1gn33fg" name="source">
+      <modelElement href="version-12.uml#_33YyMBysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_FeCOQxytEeuxj7S1gn33fg" name="StyledElement">
+        <modelElement href="version-12.uml#_33ZZQBysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FeCORBytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FeCORRytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FeCORhytEeuxj7S1gn33fg">
+        <modelElement href="version-12.uml#_4aTSAhysEeuxj7S1gn33fg"/>
+        <type xmi:id="_FeCORxytEeuxj7S1gn33fg" name="CovidUpdates">
+          <modelElement href="version-12.uml#_33F3QBysEeuxj7S1gn33fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_FeCOSBytEeuxj7S1gn33fg" name="source">
+        <modelElement href="version-12.uml#_33YyMRysEeuxj7S1gn33fg"/>
+        <cardinality xmi:id="_FeCOSRytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+        <type xmi:id="_FeCOShytEeuxj7S1gn33fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_FeCOSxytEeuxj7S1gn33fg" name="domain">
+      <modelElement href="version-12.uml#_33aAUBysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_FeCOTBytEeuxj7S1gn33fg" name="StyledElement">
+        <modelElement href="version-12.uml#_33anYBysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FeCOTRytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FeCOThytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FeCOTxytEeuxj7S1gn33fg">
+        <modelElement href="version-12.uml#_4aTSAxysEeuxj7S1gn33fg"/>
+        <type xmi:id="_FeCOUBytEeuxj7S1gn33fg" name="CovidUpdates">
+          <modelElement href="version-12.uml#_33F3QBysEeuxj7S1gn33fg"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_FeCOURytEeuxj7S1gn33fg" name="domain">
+        <modelElement href="version-12.uml#_33aAURysEeuxj7S1gn33fg"/>
+        <cardinality xmi:id="_FeCOUhytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+        <type xmi:id="_FeCOUxytEeuxj7S1gn33fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_FeCOVBytEeuxj7S1gn33fg" name="hashCode">
+      <modelElement href="version-12.uml#_33bOcBysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_FeCOVRytEeuxj7S1gn33fg" name="LegacyStyledElement">
+        <modelElement href="version-12.uml#_33b1gBysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_FeCOVhytEeuxj7S1gn33fg" name="Annotations">
+        <modelElement href="version-12.uml#_33b1gRysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FeCOVxytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FeCOWBytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FeCOWRytEeuxj7S1gn33fg">
+        <modelElement href="version-12.uml#_33bOcRysEeuxj7S1gn33fg"/>
+        <type xmi:id="_FeCOWhytEeuxj7S1gn33fg" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_FeCOWxytEeuxj7S1gn33fg" name="toString">
+      <modelElement href="version-12.uml#_33cckBysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_FeCOXBytEeuxj7S1gn33fg" name="LegacyStyledElement">
+        <modelElement href="version-12.uml#_33dDoBysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_FeCOXRytEeuxj7S1gn33fg" name="Annotations">
+        <modelElement href="version-12.uml#_33dDoRysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FeCOXhytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FeCOXxytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FeCOYBytEeuxj7S1gn33fg">
+        <modelElement href="version-12.uml#_33cckRysEeuxj7S1gn33fg"/>
+        <type xmi:id="_FeCOYRytEeuxj7S1gn33fg" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_FeC1IBytEeuxj7S1gn33fg" name="equals">
+      <modelElement href="version-12.uml#_4rV-sBysEeuxj7S1gn33fg"/>
+      <stereotypes xmi:id="_FeC1IRytEeuxj7S1gn33fg" name="LegacyStyledElement">
+        <modelElement href="version-12.uml#_4rWlwBysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <stereotypes xmi:id="_FeC1IhytEeuxj7S1gn33fg" name="Annotations">
+        <modelElement href="version-12.uml#_4rWlwRysEeuxj7S1gn33fg"/>
+      </stereotypes>
+      <visibility xmi:id="_FeC1IxytEeuxj7S1gn33fg" label="+"/>
+      <cardinality xmi:id="_FeC1JBytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_FeC1JRytEeuxj7S1gn33fg">
+        <modelElement href="version-12.uml#_4rV-shysEeuxj7S1gn33fg"/>
+        <type xmi:id="_FeC1JhytEeuxj7S1gn33fg" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_FeC1JxytEeuxj7S1gn33fg" name="o">
+        <modelElement href="version-12.uml#_4rV-sRysEeuxj7S1gn33fg"/>
+        <cardinality xmi:id="_FeC1KBytEeuxj7S1gn33fg" label="1" max="1" min="1"/>
+        <type xmi:id="_FeC1KRytEeuxj7S1gn33fg" name="Object">
+          <modelElement href="version-12.uml#_4pPs9BysEeuxj7S1gn33fg"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
