@@ -60,15 +60,38 @@ public class CovidUpdatesResource {
      * @throws URISyntaxException if the Location URI syntax is incorrect.
      */
     @PostMapping("/covid-updates")
-    public ResponseEntity<CovidUpdates> createCovidUpdates(@RequestBody CovidUpdates covidUpdates) throws URISyntaxException {
+    public ResponseEntity<List<CovidUpdates>> createCovidUpdates(@RequestBody CovidUpdates covidUpdates) throws URISyntaxException {
         log.debug("REST request to save CovidUpdates : {}", covidUpdates);
         if (covidUpdates.getId() != null) {
             throw new BadRequestAlertException("A new covidUpdates cannot already have an ID", ENTITY_NAME, "idexists");
         }
-        CovidUpdates result = covidUpdatesService.save(covidUpdates);
-        return ResponseEntity.created(new URI("/api/covid-updates/" + result.getId()))
-            .headers(HeaderUtil.createEntityCreationAlert(applicationName, false, ENTITY_NAME, result.getId().toString()))
-            .body(result);
+        RestTemplate restTemplate = new RestTemplate();
+        String fooResourceUrl
+          = "http://newsapi.org/v2/top-headlines?q=covidANDquebec&country=ca&language=en&sortBy=publishedAt&apiKey=360d2f7f354f412f915d7b606e9f1b63";
+        
+        NewsG response
+          = restTemplate.getForObject(fooResourceUrl  , NewsG.class);
+        
+        System.out.println(response);
+        
+        
+        List<NewsApiItem> items= (List<NewsApiItem>)response.getArticles();
+        Iterator iter = items.iterator();
+        while(iter.hasNext()) {
+        CovidUpdates c1= new CovidUpdates();
+        NewsApiItem it =(NewsApiItem) iter.next();
+        c1.setTitle(it.getTitle());
+        c1.setContent(it.getDescription());
+        c1.setSource(it.getSource().getName());
+        c1.setDomain(it.getAuthor());
+        c1.setPublishedAt(it.getPublishedAt());
+        c1.setImage(it.getUrlToImage());
+        covidUpdatesService.save(c1);
+        }
+       
+        Page<CovidUpdates> page = covidUpdatesQueryService.findByCriteria(null, null);
+        HttpHeaders headers = PaginationUtil.generatePaginationHttpHeaders(ServletUriComponentsBuilder.fromCurrentRequest(), page);
+        return ResponseEntity.ok().headers(headers).body(page.getContent());
     }
 
     /**
@@ -99,12 +122,12 @@ public class CovidUpdatesResource {
      * @param criteria the criteria which the requested entities should match.
      * @return the {@link ResponseEntity} with status {@code 200 (OK)} and the list of covidUpdates in body.
      */
-    @GetMapping("/covid-updates")
-    public ResponseEntity<List<CovidUpdates>> getAllCovidUpdates(CovidUpdatesCriteria criteria, Pageable pageable) {
+    @GetMapping("/covid-updates2")
+    public ResponseEntity<List<CovidUpdates>> getAllCovidUpdates2(CovidUpdatesCriteria criteria, Pageable pageable) {
         log.debug("REST request to get CovidUpdates by criteria: {}", criteria);
         RestTemplate restTemplate = new RestTemplate();
         String fooResourceUrl
-          = "http://newsapi.org/v2/top-headlines?q=covid&country=ca&language=en&sortBy=publishedAt&apiKey=360d2f7f354f412f915d7b606e9f1b63";
+          = "http://newsapi.org/v2/top-headlines?q=covidANDquebec&country=ca&language=en&sortBy=publishedAt&apiKey=360d2f7f354f412f915d7b606e9f1b63";
         
         NewsG response
           = restTemplate.getForObject(fooResourceUrl  , NewsG.class);
@@ -119,6 +142,43 @@ public class CovidUpdatesResource {
         NewsApiItem it =(NewsApiItem) iter.next();
         c1.setTitle(it.getTitle());
         c1.setContent(it.getDescription());
+        c1.setSource(it.getSource().getName());
+        c1.setDomain(it.getAuthor());
+        c1.setPublishedAt(it.getPublishedAt());
+        c1.setImage(it.getUrlToImage());
+        covidUpdatesService.save(c1);
+        }
+        Page<CovidUpdates> page = covidUpdatesQueryService.findByCriteria(criteria, pageable);
+        HttpHeaders headers = PaginationUtil.generatePaginationHttpHeaders(ServletUriComponentsBuilder.fromCurrentRequest(), page);
+        return ResponseEntity.ok().headers(headers).body(page.getContent());
+    }
+    /**
+     * {@code GET  /covid-updates} : get all the covidUpdates.
+     *
+     * @param pageable the pagination information.
+     * @param criteria the criteria which the requested entities should match.
+     * @return the {@link ResponseEntity} with status {@code 200 (OK)} and the list of covidUpdates in body.
+     */
+    @GetMapping("/covid-updates")
+    public ResponseEntity<List<CovidUpdates>> getAllCovidUpdates(CovidUpdatesCriteria criteria, Pageable pageable) {
+        log.debug("REST request to get CovidUpdates by criteria: {}", criteria);
+        RestTemplate restTemplate = new RestTemplate();
+        String fooResourceUrl
+          = "http://newsapi.org/v2/top-headlines?q=covidANDQuebecANDschool&country=ca&language=en&sortBy=publishedAt&apiKey=360d2f7f354f412f915d7b606e9f1b63";
+        
+        NewsG response
+          = restTemplate.getForObject(fooResourceUrl  , NewsG.class);
+        
+        System.out.println(response);
+        
+        
+        List<NewsApiItem> items= (List<NewsApiItem>)response.getArticles();
+        Iterator iter = items.iterator();
+        while(iter.hasNext()) {
+        CovidUpdates c1= new CovidUpdates();
+        NewsApiItem it =(NewsApiItem) iter.next();
+        c1.setTitle(it.getTitle());
+        c1.setContent(it.getContent());
         c1.setSource(it.getSource().getName());
         c1.setDomain(it.getAuthor());
         c1.setPublishedAt(it.getPublishedAt());

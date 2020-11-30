@@ -11,11 +11,14 @@ import { ITEMS_PER_PAGE } from 'app/shared/constants/pagination.constants';
 import { CovidUpdatesService } from './covid-updates.service';
 import { CovidUpdatesDeleteDialogComponent } from './covid-updates-delete-dialog.component';
 
+
 @Component({
   selector: 'jhi-covid-updates',
   templateUrl: './covid-updates.component.html',
 })
 export class CovidUpdatesComponent implements OnInit, OnDestroy {
+  title = 'Angular Search Using ng2-search-filter';
+  searchText !: string;
   covidUpdates?: ICovidUpdates[];
   eventSubscriber?: Subscription;
   totalItems = 0;

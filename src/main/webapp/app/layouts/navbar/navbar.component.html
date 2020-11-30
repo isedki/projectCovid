@@ -61,6 +61,13 @@
                             <span>User management</span>
                         </a>
                     </li>
+
+                     <li>
+                        <a class="dropdown-item" routerLink="admin/audits" routerLinkActive="active" (click)="collapseNavbar()">
+                            <fa-icon icon="bell" [fixedWidth]="true"></fa-icon>
+                            <span>Audits</span>
+                        </a>
+                    </li>
 <!--                     <li>
                         <a class="dropdown-item" routerLink="admin/metrics" routerLinkActive="active" (click)="collapseNavbar()">
                             <fa-icon icon="tachometer-alt" [fixedWidth]="true"></fa-icon>
@@ -128,7 +135,13 @@
                     <li *ngSwitchCase="true">
 						<a class="dropdown-item" routerLink="covid-updates" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="collapseNavbar()">
                             <fa-icon icon="asterisk" [fixedWidth]="true"></fa-icon>
-                            <span>Covid Updates</span>
+                            <span>Covid Updates For Canada</span>
+                        </a>
+                    </li>
+ 					 <li *ngSwitchCase="true">
+						<a class="dropdown-item" routerLink="covid-updates2" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }" (click)="collapseNavbar()">
+                            <fa-icon icon="asterisk" [fixedWidth]="true"></fa-icon>
+                            <span>Quebec News</span>
                         </a>
                     </li>
                     <li *ngSwitchCase="true">

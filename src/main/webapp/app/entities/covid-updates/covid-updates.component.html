@@ -2,12 +2,12 @@
     <h2 id="page-heading">
         <span>Covid Updates</span>
 
-<!--         <button id="jh-create-entity" class="btn btn-primary float-right jh-create-entity create-covid-updates" [routerLink]="['/covid-updates/new']">
+        <button id="jh-create-entity" class="btn btn-primary float-right jh-create-entity create-covid-updates" [routerLink]="['/covid-updates/new']">
             <fa-icon icon="plus"></fa-icon>
             <span>
-            Create a new Covid Updates
+            Quebec Only 
             </span>
-        </button> -->
+        </button>
     </h2>
 
     <jhi-alert-error></jhi-alert-error>
@@ -18,29 +18,35 @@
     <div class="alert alert-warning" id="no-result" *ngIf="covidUpdates?.length === 0">
         <span>No covidUpdates found</span>
     </div>
-
+    <div class="search-hero">
+      <input class="form-control" type="text" name="search" [(ngModel)]="searchText" autocomplete="off" placeholder="&#61442;  Start searching for a specific news">
+    </div>
+    
     <div class="table-responsive" id="entities" *ngIf="covidUpdates && covidUpdates.length > 0">
         <table class="table table-striped" aria-describedby="page-heading">
             <thead>
                 <tr jhiSort [(predicate)]="predicate" [(ascending)]="ascending" [callback]="loadPage.bind(this)">
                    
+                   <th scope="col"  jhiSortBy="image"><span>Image</span> <fa-icon icon="sort"></fa-icon></th>
                     <th scope="col"  jhiSortBy="title"><span>Title</span> <fa-icon icon="sort"></fa-icon></th>
-                    <th scope="col"  jhiSortBy="content"><span>Content</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="content" style="width: 50%; overflow: hidden; text-overflow: ellipsis;"><span>Content</span> <fa-icon icon="sort"></fa-icon></th>
                     <th scope="col"  jhiSortBy="source"><span>Source</span> <fa-icon icon="sort"></fa-icon></th>
                     <th scope="col"  jhiSortBy="domain"><span>Author</span> <fa-icon icon="sort"></fa-icon></th>
-                  <!--   <th scope="col"  jhiSortBy="image"><span>Image</span> <fa-icon icon="sort"></fa-icon></th> -->
-                    <th scope="col"  jhiSortBy="publishedAt"><span>Published At</span> <fa-icon icon="sort"></fa-icon></th>
+                    
+                    <th scope="col"  jhiSortBy="publishedAt"><span>date</span> <fa-icon icon="sort"></fa-icon></th>
                     <th scope="col"></th>
                 </tr>
             </thead>
             <tbody>
-                <tr *ngFor="let covidUpdates of covidUpdates ;trackBy: trackId">
+                <tr *ngFor="let covidUpdates of covidUpdates  | filter:searchText; let i = index">
                     
+                    <td><img  width="200"  src="{{'../../../content/images/images'+i+'.jpg'}}" ></td>  
                     <td>{{ covidUpdates.title }}</td>
                     <td>{{ covidUpdates.content }}</td>
                     <td>{{ covidUpdates.source }}</td>
                     <td>{{ covidUpdates.domain }}</td>
-                   <!--  <td><img    src="{{covidUpdates.image}}"></td> -->
+                   
+                   
                     <td>{{ covidUpdates.publishedAt | date :'short'}}</td>
                  
                     <td class="text-right">
@@ -57,13 +63,13 @@
                                     class="btn btn-primary btn-sm">
                                 <fa-icon icon="pencil-alt"></fa-icon>
                                 <span class="d-none d-md-inline">Edit</span>
-                            </button>
-
-                            <button type="submit" (click)="delete(covidUpdates)"
-                                    class="btn btn-danger btn-sm">
-                                <fa-icon icon="times"></fa-icon>
-                                <span class="d-none d-md-inline">Delete</span>
                             </button> -->
+
+<!--                             <button type="submit" (click)="delete(covidUpdates)" -->
+<!--                                     class="btn btn-danger btn-sm"> -->
+<!--                                 <fa-icon icon="times"></fa-icon> -->
+<!--                                 <span class="d-none d-md-inline">Quebec Seulement</span> -->
+<!--                             </button>  -->
                         </div>
                     </td>
                 </tr>
