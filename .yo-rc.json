@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.smart.covid"
+    },
+    "jhipsterVersion": "6.10.3",
+    "applicationType": "monolith",
+    "baseName": "coen6311",
+    "packageName": "com.smart.covid",
+    "packageFolder": "com/smart/covid",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MTg0ZTY0ZjhkMTJmYzAzMDhkZGY2ZDY3MWRlNzI2OGI5NmYwYWU3ZTViYTQzMzRjZjEwZWMwNTJiM2Q2Njc5N2ZmNTk1ZTg5N2QwM2NjM2M0YmFkMTFjZjQ2OTY3NTE3OWNlOGYyZDU3Y2VjNDcyNzU5Nzk5NDYwMDAyMzQ4Mjg=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1606356303774,
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": []
+  }
+}
