@@ -2,12 +2,7 @@
     <h2 id="page-heading">
         <span>Covid Updates</span>
 
-        <button id="jh-create-entity" class="btn btn-primary float-right jh-create-entity create-covid-updates" [routerLink]="['/covid-updates/new']">
-            <fa-icon icon="plus"></fa-icon>
-            <span>
-            Quebec Only 
-            </span>
-        </button>
+
     </h2>
 
     <jhi-alert-error></jhi-alert-error>
@@ -40,7 +35,7 @@
             <tbody>
                 <tr *ngFor="let covidUpdates of covidUpdates  | filter:searchText; let i = index">
                     
-                    <td><img  width="200"  src="{{'../../../content/images/images'+i+'.jpg'}}" ></td>  
+                    <td><img  width="200"  src="{{'../../../content/images/images'+i+'.jpeg'}}" ></td>  
                     <td>{{ covidUpdates.title }}</td>
                     <td>{{ covidUpdates.content }}</td>
                     <td>{{ covidUpdates.source }}</td>

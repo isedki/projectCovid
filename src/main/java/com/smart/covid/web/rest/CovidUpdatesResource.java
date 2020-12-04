@@ -164,7 +164,7 @@ public class CovidUpdatesResource {
         log.debug("REST request to get CovidUpdates by criteria: {}", criteria);
         RestTemplate restTemplate = new RestTemplate();
         String fooResourceUrl
-          = "http://newsapi.org/v2/top-headlines?q=covidANDQuebecANDschool&country=ca&language=en&sortBy=publishedAt&apiKey=360d2f7f354f412f915d7b606e9f1b63";
+          = "http://newsapi.org/v2/top-headlines?q=covid&country=ca&language=en&sortBy=publishedAt&apiKey=360d2f7f354f412f915d7b606e9f1b63";
         
         NewsG response
           = restTemplate.getForObject(fooResourceUrl  , NewsG.class);
